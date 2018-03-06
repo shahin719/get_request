@@ -1,4 +1,4 @@
-package abdolhossein.kolali.getrequest;
+﻿package abdolhossein.kolali.getrequest;
 
 import android.Manifest;
 import android.content.Context;
@@ -40,6 +40,8 @@ public class ActivityTextArshiv extends AppCompatActivity {
     Button btnCall;
     Button btnText;
     Button btnDone;
+    Button btnText55;
+    Button btnDone34;
     String url = "http://caferejim.com/moshavereh/web_service/arshiv.php";
     public String call_type;
     String phone;
