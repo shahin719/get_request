@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    tools:context="abdolhossein.kolali.getrequest.ActivityMain">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_back"
+            android:gravity="center"
+            android:layout_margin="24dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnMoshavereh"
+                android:layout_width="250dp"
+                android:layout_height="120dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/border_btn"
+                android:text="درخواست مشاوره"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnVakil"
+                android:layout_width="250dp"
+                android:layout_height="120dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/border_btn"
+                android:text="در خواست وکیل"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnArshiv"
+                android:layout_width="250dp"
+                android:layout_height="120dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/border_btn"
+                android:text="آرشیو"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
